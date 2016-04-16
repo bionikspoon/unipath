@@ -6,6 +6,7 @@
   },
   "extends": "airbnb/base",
   "rules": {
-    "array-bracket-spacing": [ 2, "always" ]
+    "array-bracket-spacing": [ 2, "always" ],
+    "no-use-before-define": [ 2, { "functions": false } ]
   }
 }
