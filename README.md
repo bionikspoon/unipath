@@ -19,7 +19,13 @@ npm i -D unipath
 ```js
 import unipath from "unipath"
 
-unipath() // true
+// create a path.join "partial"
+const dist = unipath('dist')
+
+// join paths to base paths
+const entry = dist('scripts', 'app', 'index.js')
+
+// entry would be './dist/scripts/app/index.js'
 ```
 
 ## License
